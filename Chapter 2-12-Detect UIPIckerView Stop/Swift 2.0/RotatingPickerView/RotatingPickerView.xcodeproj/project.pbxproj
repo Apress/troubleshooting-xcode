@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C812A0801B5AB917006ED5D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C812A07F1B5AB917006ED5D3 /* AppDelegate.swift */; };
+		C812A0831B5AB917006ED5D3 /* RotatingPickerView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C812A0811B5AB917006ED5D3 /* RotatingPickerView.xcdatamodeld */; };
+		C812A0851B5AB917006ED5D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C812A0841B5AB917006ED5D3 /* ViewController.swift */; };
+		C812A0881B5AB917006ED5D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C812A0861B5AB917006ED5D3 /* Main.storyboard */; };
+		C812A08A1B5AB917006ED5D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C812A0891B5AB917006ED5D3 /* Images.xcassets */; };
+		C812A08D1B5AB917006ED5D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C812A08B1B5AB917006ED5D3 /* LaunchScreen.xib */; };
+		C812A0991B5AB917006ED5D3 /* RotatingPickerViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C812A0981B5AB917006ED5D3 /* RotatingPickerViewTests.swift */; };
+		C812A0A31B5AB93D006ED5D3 /* RotatingPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C812A0A21B5AB93D006ED5D3 /* RotatingPickerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C812A0931B5AB917006ED5D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C812A0721B5AB917006ED5D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C812A0791B5AB917006ED5D3;
+			remoteInfo = RotatingPickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C812A07A1B5AB917006ED5D3 /* RotatingPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotatingPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C812A07E1B5AB917006ED5D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C812A07F1B5AB917006ED5D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C812A0821B5AB917006ED5D3 /* RotatingPickerView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RotatingPickerView.xcdatamodel; sourceTree = "<group>"; };
+		C812A0841B5AB917006ED5D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C812A0871B5AB917006ED5D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C812A0891B5AB917006ED5D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C812A08C1B5AB917006ED5D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C812A0921B5AB917006ED5D3 /* RotatingPickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RotatingPickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C812A0971B5AB917006ED5D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C812A0981B5AB917006ED5D3 /* RotatingPickerViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingPickerViewTests.swift; sourceTree = "<group>"; };
+		C812A0A21B5AB93D006ED5D3 /* RotatingPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotatingPickerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C812A0771B5AB917006ED5D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C812A08F1B5AB917006ED5D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C812A0711B5AB917006ED5D3 = {
+			isa = PBXGroup;
+			children = (
+				C812A07C1B5AB917006ED5D3 /* RotatingPickerView */,
+				C812A0951B5AB917006ED5D3 /* RotatingPickerViewTests */,
+				C812A07B1B5AB917006ED5D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C812A07B1B5AB917006ED5D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C812A07A1B5AB917006ED5D3 /* RotatingPickerView.app */,
+				C812A0921B5AB917006ED5D3 /* RotatingPickerViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C812A07C1B5AB917006ED5D3 /* RotatingPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				C812A07F1B5AB917006ED5D3 /* AppDelegate.swift */,
+				C812A0841B5AB917006ED5D3 /* ViewController.swift */,
+				C812A0861B5AB917006ED5D3 /* Main.storyboard */,
+				C812A0A21B5AB93D006ED5D3 /* RotatingPickerView.swift */,
+				C812A0891B5AB917006ED5D3 /* Images.xcassets */,
+				C812A08B1B5AB917006ED5D3 /* LaunchScreen.xib */,
+				C812A0811B5AB917006ED5D3 /* RotatingPickerView.xcdatamodeld */,
+				C812A07D1B5AB917006ED5D3 /* Supporting Files */,
+			);
+			path = RotatingPickerView;
+			sourceTree = "<group>";
+		};
+		C812A07D1B5AB917006ED5D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C812A07E1B5AB917006ED5D3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C812A0951B5AB917006ED5D3 /* RotatingPickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				C812A0981B5AB917006ED5D3 /* RotatingPickerViewTests.swift */,
+				C812A0961B5AB917006ED5D3 /* Supporting Files */,
+			);
+			path = RotatingPickerViewTests;
+			sourceTree = "<group>";
+		};
+		C812A0961B5AB917006ED5D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C812A0971B5AB917006ED5D3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C812A0791B5AB917006ED5D3 /* RotatingPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C812A09C1B5AB917006ED5D3 /* Build configuration list for PBXNativeTarget "RotatingPickerView" */;
+			buildPhases = (
+				C812A0761B5AB917006ED5D3 /* Sources */,
+				C812A0771B5AB917006ED5D3 /* Frameworks */,
+				C812A0781B5AB917006ED5D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RotatingPickerView;
+			productName = RotatingPickerView;
+			productReference = C812A07A1B5AB917006ED5D3 /* RotatingPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C812A0911B5AB917006ED5D3 /* RotatingPickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C812A09F1B5AB917006ED5D3 /* Build configuration list for PBXNativeTarget "RotatingPickerViewTests" */;
+			buildPhases = (
+				C812A08E1B5AB917006ED5D3 /* Sources */,
+				C812A08F1B5AB917006ED5D3 /* Frameworks */,
+				C812A0901B5AB917006ED5D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C812A0941B5AB917006ED5D3 /* PBXTargetDependency */,
+			);
+			name = RotatingPickerViewTests;
+			productName = RotatingPickerViewTests;
+			productReference = C812A0921B5AB917006ED5D3 /* RotatingPickerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C812A0721B5AB917006ED5D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "-";
+				TargetAttributes = {
+					C812A0791B5AB917006ED5D3 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					C812A0911B5AB917006ED5D3 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = C812A0791B5AB917006ED5D3;
+					};
+				};
+			};
+			buildConfigurationList = C812A0751B5AB917006ED5D3 /* Build configuration list for PBXProject "RotatingPickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C812A0711B5AB917006ED5D3;
+			productRefGroup = C812A07B1B5AB917006ED5D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C812A0791B5AB917006ED5D3 /* RotatingPickerView */,
+				C812A0911B5AB917006ED5D3 /* RotatingPickerViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C812A0781B5AB917006ED5D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C812A0881B5AB917006ED5D3 /* Main.storyboard in Resources */,
+				C812A08D1B5AB917006ED5D3 /* LaunchScreen.xib in Resources */,
+				C812A08A1B5AB917006ED5D3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C812A0901B5AB917006ED5D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C812A0761B5AB917006ED5D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C812A0A31B5AB93D006ED5D3 /* RotatingPickerView.swift in Sources */,
+				C812A0851B5AB917006ED5D3 /* ViewController.swift in Sources */,
+				C812A0831B5AB917006ED5D3 /* RotatingPickerView.xcdatamodeld in Sources */,
+				C812A0801B5AB917006ED5D3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C812A08E1B5AB917006ED5D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C812A0991B5AB917006ED5D3 /* RotatingPickerViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C812A0941B5AB917006ED5D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C812A0791B5AB917006ED5D3 /* RotatingPickerView */;
+			targetProxy = C812A0931B5AB917006ED5D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C812A0861B5AB917006ED5D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C812A0871B5AB917006ED5D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C812A08B1B5AB917006ED5D3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C812A08C1B5AB917006ED5D3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C812A09A1B5AB917006ED5D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C812A09B1B5AB917006ED5D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C812A09D1B5AB917006ED5D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RotatingPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C812A09E1B5AB917006ED5D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RotatingPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C812A0A01B5AB917006ED5D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RotatingPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RotatingPickerView.app/RotatingPickerView";
+			};
+			name = Debug;
+		};
+		C812A0A11B5AB917006ED5D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RotatingPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RotatingPickerView.app/RotatingPickerView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C812A0751B5AB917006ED5D3 /* Build configuration list for PBXProject "RotatingPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C812A09A1B5AB917006ED5D3 /* Debug */,
+				C812A09B1B5AB917006ED5D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C812A09C1B5AB917006ED5D3 /* Build configuration list for PBXNativeTarget "RotatingPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C812A09D1B5AB917006ED5D3 /* Debug */,
+				C812A09E1B5AB917006ED5D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C812A09F1B5AB917006ED5D3 /* Build configuration list for PBXNativeTarget "RotatingPickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C812A0A01B5AB917006ED5D3 /* Debug */,
+				C812A0A11B5AB917006ED5D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C812A0811B5AB917006ED5D3 /* RotatingPickerView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C812A0821B5AB917006ED5D3 /* RotatingPickerView.xcdatamodel */,
+			);
+			currentVersion = C812A0821B5AB917006ED5D3 /* RotatingPickerView.xcdatamodel */;
+			path = RotatingPickerView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C812A0721B5AB917006ED5D3 /* Project object */;
+}
